@@ -46,7 +46,7 @@ fun agoToText(
 }
 
 fun main() {
-    println("введи количество секунд")
+    println("Введите количество секунд")
     val seconds = readLine()!!.toInt()
     val result = agoToText(seconds)
     print("был(а) в сети $result")
